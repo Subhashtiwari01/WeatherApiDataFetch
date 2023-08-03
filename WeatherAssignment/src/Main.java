@@ -12,6 +12,9 @@ public class Main {
 
         HttpResponse< String> response= clint.send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println(response.body());
+        System.out.println(response.statusCode());
+
+        
 
 
 
